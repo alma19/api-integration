@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 400px;
+        width: 100%;
+        position: relative;
+        overflow: hidden; 
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      //map beginning - rekia boyd 
+
+  
+
+      // help from https://github.com/megannpainter/final-project/blob/master/js/googlemap.js
+            var map;
+            var mapCenter = {lat: 41.8781, lng: -87.6298};
+            
+            var one = {lat: 41.8781, lng: -87.6298}; 
+            var three = {lat: 42.3370, lng: -83.2733};
+            var four = {lat: 43.0389, lng: -87.9065};
+            var five = {lat: 40.5795, lng: -74.1502};
+            var six = {lat: 39.7092, lng: -84.0633};
+            var seven = {lat: 38.7442, lng: -90.3054};
+            var eight = {lat: 34.0522, lng: -118.2437};
+            var nine = {lat: 30.3322, lng: -81.6557};
+            var ten = {lat: 41.4993, lng: -81.6944};
+            var eleven = {lat: 30.10239, lng: -96.07535};
+            var twelve = {lat: 36.1540, lng: -95.9928};
+            var thirteen = {lat: 32.8546, lng: -79.9748};
+            var fourteen = {lat: 30.4583, lng: -91.1403};
+            var fifteen = {lat: 44.9916, lng: -93.1663};
+            var sixteen = {lat: 39.3673, lng: -76.7953};
+            var seventeen = {lat: 35.2271, lng: -80.8431};
+           
+       
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: mapCenter,
+          zoom: 4,
+          scrollwheel:false,
+          labels: true
+          });
+        
+    //rekia boyd
+    var marker = new google.maps.Marker({
+          position: one,
+          map: map,
+          title: 'Rekia Boyd'
+        });
+        var stringOne =  
+            '<h1>Rekia Boyd</h1>'+
+            '<p>content here</p>';
+    var infowindow = new google.maps.InfoWindow({
+            content: stringOne, 
+            position: one,
+          });
+    marker.addListener('click', function() {
+        infowindow.open(map, marker);
+        });
+    
+    
+    
+    
+    //renisha mcbride 
+    var marker3 = new google.maps.Marker({
+          position: three,
+          map: map,
+          title: 'Renisha McBride'
+        });
+        var stringThree =
+            '<h1>Renisha McBride</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow3 = new google.maps.InfoWindow({
+            content: stringThree, 
+            position: three,
+          });
+    marker3.addListener('click', function() {
+        infowindow3.open(map, marker3);
+        });
+    
+
+    //dontre hamilton  
+    var marker4 = new google.maps.Marker({
+          position: four,
+          map: map,
+          title: 'Dontre Hamilton'
+        });
+        var stringFour =
+            '<h1>Dontre Hamilton</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow4 = new google.maps.InfoWindow({
+            content: stringFour, 
+            position: four,
+          });
+    marker4.addListener('click', function() {
+        infowindow4.open(map, marker4);
+        });
+    
+    //eric garner  
+    var marker5 = new google.maps.Marker({
+          position: five,
+          map: map,
+          title: 'Eric Garner'
+        });
+        var stringFive =
+            '<h1>Eric Garner</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow5 = new google.maps.InfoWindow({
+            content: stringFive, 
+            position: five,
+          });
+    marker5.addListener('click', function() {
+        infowindow5.open(map, marker5);
+        });
+    
+    //john crawford   
+    var marker6 = new google.maps.Marker({
+          position: six,
+          map: map,
+          title: 'John Crawford III'
+        });
+        var stringSix =
+            '<h1>John Crawfood III</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow6 = new google.maps.InfoWindow({
+            content: stringSix, 
+            position: six,
+          });
+    marker6.addListener('click', function() {
+        infowindow6.open(map, marker6);
+        });
+    
+     //michael brown   
+    var marker7 = new google.maps.Marker({
+          position: seven,
+          map: map,
+          title: 'Michael Brown'
+        });
+        var stringSeven =
+            '<h1>Michael Brown</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow7 = new google.maps.InfoWindow({
+            content: stringSeven, 
+            position: seven,
+          });
+    marker7.addListener('click', function() {
+        infowindow7.open(map, marker7);
+        });
+
+    //ezell ford   
+    var marker8 = new google.maps.Marker({
+          position: eight,
+          map: map,
+          title: 'Ezell Ford'
+        });
+        var stringEight =
+            '<h1>Ezell Ford</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow8 = new google.maps.InfoWindow({
+            content: stringEight, 
+            position: eight,
+          });
+    marker8.addListener('click', function() {
+        infowindow8.open(map, marker8);
+        });
+    
+     //akai gurley    
+    var marker9 = new google.maps.Marker({
+          position: nine,
+          map: map,
+          title: 'Jordan Davis'
+        });
+        var stringNine =
+            '<h1>Jordan Davis</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow9 = new google.maps.InfoWindow({
+            content: stringNine, 
+            position: nine,
+          });
+    marker9.addListener('click', function() {
+        infowindow9.open(map, marker9);
+        });
+    
+    //tamir rice    
+    var marker10 = new google.maps.Marker({
+          position: ten,
+          map: map,
+          title: 'Tamir Rice'
+        });
+        var stringTen =
+            '<h1>Tamir Rice</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow10 = new google.maps.InfoWindow({
+            content: stringTen, 
+            position: ten,
+          });
+    marker10.addListener('click', function() {
+        infowindow10.open(map, marker10);
+        });
+    
+     //antonio martin  
+    var marker11 = new google.maps.Marker({
+          position: eleven,
+          map: map,
+          title: 'Sandra Bland'
+        });
+        var stringEleven =
+            '<h1>Sandra Bland</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow11 = new google.maps.InfoWindow({
+            content: stringEleven, 
+            position: eleven,
+          });
+    marker11.addListener('click', function() {
+        infowindow11.open(map, marker11);
+        });
+    
+     //Eric Harris  
+    var marker12 = new google.maps.Marker({
+          position: twelve,
+          map: map,
+          title: 'Eric Harris'
+        });
+        var stringTwelve =
+            '<h1>Eric Harris</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow12 = new google.maps.InfoWindow({
+            content: stringTwelve, 
+            position: twelve,
+          });
+    marker12.addListener('click', function() {
+        infowindow12.open(map, marker12);
+        });
+    
+    //Walter Scott  
+    var marker13 = new google.maps.Marker({
+          position: thirteen,
+          map: map,
+          title: 'Walter Scott'
+        });
+        var stringThirteen =
+            '<h1>Walter Scott</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow13 = new google.maps.InfoWindow({
+            content: stringThirteen, 
+            position: thirteen,
+          });
+    marker13.addListener('click', function() {
+        infowindow13.open(map, marker13);
+        });
+    
+    //alton sterling 
+    var marker14 = new google.maps.Marker({
+          position: fourteen,
+          map: map,
+          title: 'Alton Sterling'
+        });
+        var stringFourteen =
+            '<h1>Alton Sterling</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow14 = new google.maps.InfoWindow({
+            content: stringFourteen, 
+            position: fourteen,
+          });
+    marker14.addListener('click', function() {
+        infowindow14.open(map, marker14);
+        });
+
+        //philandro castle
+    var marker15 = new google.maps.Marker({
+          position: fifteen,
+          map: map,
+          title: 'Philandro Castle'
+        });
+        var stringFifteen =
+            '<h1>Philandro Castle</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow15 = new google.maps.InfoWindow({
+            content: stringFifteen, 
+            position: fifteen,
+          });
+    marker15.addListener('click', function() {
+        infowindow15.open(map, marker15);
+        });
+    
+     //korryn gaines 
+    var marker16 = new google.maps.Marker({
+          position: sixteen,
+          map: map,
+          title: 'Korryn Gaines'
+        });
+        var stringSixteen =
+            '<h1>Korryn Gaines</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow16 = new google.maps.InfoWindow({
+            content: stringSixteen, 
+            position: sixteen,
+          });
+    marker16.addListener('click', function() {
+        infowindow16.open(map, marker16);
+        });
+    
+     //keith scott 
+    var marker17 = new google.maps.Marker({
+          position: seventeen,
+          map: map,
+          title: 'Keith Scott'
+        });
+        var stringSeventeen =
+            '<h1>Keith Scott</h1>'+
+            '<p>content here</p>';
+            
+    var infowindow17 = new google.maps.InfoWindow({
+            content: stringSeventeen, 
+            position: seventeen,
+          });
+    marker17.addListener('click', function() {
+        infowindow17.open(map, marker17);
+        });
+    
+    }
+
+      
+
+         
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAqvJnoRdPpAZpjULU2AaDpC3oX75PXtg&callback=initMap">
+    </script>
+  </body>
+</html>

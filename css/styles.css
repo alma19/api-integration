@@ -1,0 +1,166 @@
+/*GENERAL CSS*/ 
+/*FONT CREDIT: https://github.com/theleagueof/blackout*/ 
+@font-face {
+    font-family: "BLM Font";
+    src: url('../fonts/blackout_midnight-webfont.woff') format("truetype");  
+}
+
+body {
+    background-color: black !important; 
+}
+
+p {
+    color: white; 
+}
+
+hr {
+    color: white; 
+}
+
+a {
+    color: yellow !important; 
+}
+/*JUMBOTRON*/
+.jumbotron {
+    background-color: black !important;
+}
+
+.title {
+    font-family: "BLM FONT", Verdana, Tahoma;
+    font-size: 4em;
+    text-align: center;
+    color: yellow;
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+/*BUTTONS*/
+
+.btn {
+    background-color: yellow;
+    color: black !important;
+    font-weight: 900;
+    text-transform: uppercase; 
+    border: 1px solid white;
+    font-family: "BLM FONT", Verdana, Tahoma;
+}
+
+.btn-title {
+    font-family: "BLM FONT", Verdana, Tahoma;
+    color: white;
+}
+
+
+/*HEADINGS*/
+
+.headings-title {
+    font-family: "BLM FONT", Verdana, Tahoma;
+    color: yellow;
+}
+
+
+/*ON THE GROUND */
+#map {
+        height: 400px;
+        width: 100%;
+        position: relative;
+        overflow: hidden; 
+      }
+
+.map-text {
+    color: black; 
+}
+
+a.map-text {
+    color: black !important;
+    font-weight: bold;
+    font-family: "BLM FONT", Verdana, Tahoma; 
+}
+
+.map-pic {
+   /*width: 300px;*/
+   /*height: auto;*/
+}
+
+.map-title {
+    font-family: "BLM FONT", Verdana, Tahoma;
+}
+
+
+/*IN THE NEWS*/
+.news {
+    background-color: gray;
+    padding: 10px; 
+}
+
+
+
+a.nyt-headline {
+    font-family: "BLM FONT", Verdana, Tahoma;
+}
+
+.nyt-headline {
+    font-size: 1.5em; 
+}
+
+#nytimes-results {
+    margin-top: 20px; 
+}
+
+a.nyt-url {
+    color: yellow;
+    font-family: "BLM FONT", Verdana, Tahoma;
+}
+
+a:hover.nyt-url {
+    color: white; 
+}
+
+.date {
+    color: white; 
+}
+
+
+/*IN THE MEDIA*/
+.twitter-user {
+    color: white; 
+}
+#media {
+    padding-top: 10px; 
+}
+
+.tweet {
+    color: white;
+    padding-top: 10px; 
+}
+
+.user-name {
+    color: yellow;
+    font-family: "BLM FONT", Verdana, Tahoma;
+}
+
+a:hover.user-name {
+    color: white; 
+}
+
+.tweet-date {
+    color: white;
+    padding-top: 10px; 
+}
+
+.screen-name {
+    color: white; 
+}
+
+.social-media {
+    font-size: 1.1em; 
+}
+
+.twitter-user {
+    font-size: 1.3em; 
+}
