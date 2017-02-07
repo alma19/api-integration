@@ -1,5 +1,5 @@
 # api-integration
-### MEJO 586: Interactive Multimedia. PROJECT 4: API Integration.
+### MEJO 586: Interactive Multimedia. Project 4: API Integration.
 
 #### Project Description: 
 
@@ -15,6 +15,8 @@ Find an issue, event or news situation that is ideal for a mashup. You will need
 + As with all of your previous projects there is a burden of great storytelling presentation.
 
 #### Source: https://github.com/steven-king/j586/wiki/Project-4-Final:-API-Integration
+
+#### Site: http://almawashington.com/586/project4/
 
 
 
